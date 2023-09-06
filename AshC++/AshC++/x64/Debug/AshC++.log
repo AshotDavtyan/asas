@@ -1,0 +1,40 @@
+﻿  film.cpp
+C:\ash\AshC++\AshC++\film.h(24,9): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\ash\AshC++\AshC++\film.h(26,9): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : см. объявление "std::vector"
+C:\ash\AshC++\AshC++\film.h(32,8): error C2663: "std::vector<_Ty,_Alloc>::push_back": нет перегруженной функции с допустимым преобразованием для указателя "this"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(939,23): message : может быть "void std::vector<_Ty,_Alloc>::push_back(_Ty &&)"
+C:\ash\AshC++\AshC++\film.h(32,8): message : void std::vector<_Ty,_Alloc>::push_back(_Ty &&): невозможно преобразовать указатель "this" из "std::vector" в "std::vector<_Ty,_Alloc> &"
+C:\ash\AshC++\AshC++\film.h(32,3): message : Причина: невозможно преобразовать "std::vector" в "std::vector<_Ty,_Alloc>"
+C:\ash\AshC++\AshC++\film.h(32,3): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(935,23): message : или       "void std::vector<_Ty,_Alloc>::push_back(const _Ty &)"
+C:\ash\AshC++\AshC++\film.h(32,8): message : void std::vector<_Ty,_Alloc>::push_back(const _Ty &): невозможно преобразовать указатель "this" из "std::vector" в "std::vector<_Ty,_Alloc> &"
+C:\ash\AshC++\AshC++\film.h(32,3): message : Причина: невозможно преобразовать "std::vector" в "std::vector<_Ty,_Alloc>"
+C:\ash\AshC++\AshC++\film.h(32,3): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\ash\AshC++\AshC++\film.h(32,8): message : при попытке сопоставить список аргументов "(Film)"
+C:\ash\AshC++\AshC++\film.h(36,20): error C2663: "std::vector<_Ty,_Alloc>::_Unchecked_begin": нет перегруженной функции с допустимым преобразованием для указателя "this"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1913,43): message : может быть "allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept const"
+C:\ash\AshC++\AshC++\film.h(36,20): message : allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
+C:\ash\AshC++\AshC++\film.h(36,20): message : Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
+C:\ash\AshC++\AshC++\film.h(36,20): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1909,37): message : или       "allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept"
+C:\ash\AshC++\AshC++\film.h(36,20): message : allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept: невозможно преобразовать указатель "this" из "std::vector" в "std::vector<_Ty,_Alloc> &"
+C:\ash\AshC++\AshC++\film.h(36,20): message : Причина: невозможно преобразовать "std::vector" в "std::vector<_Ty,_Alloc>"
+C:\ash\AshC++\AshC++\film.h(36,20): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\ash\AshC++\AshC++\film.h(36,20): message : при попытке сопоставить список аргументов "()"
+C:\ash\AshC++\AshC++\film.h(36,20): error C2663: "std::vector<_Ty,_Alloc>::_Unchecked_end": нет перегруженной функции с допустимым преобразованием для указателя "this"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1921,43): message : может быть "allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept const"
+C:\ash\AshC++\AshC++\film.h(36,20): message : allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
+C:\ash\AshC++\AshC++\film.h(36,20): message : Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
+C:\ash\AshC++\AshC++\film.h(36,20): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(1917,37): message : или       "allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept"
+C:\ash\AshC++\AshC++\film.h(36,20): message : allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept: невозможно преобразовать указатель "this" из "std::vector" в "std::vector<_Ty,_Alloc> &"
+C:\ash\AshC++\AshC++\film.h(36,20): message : Причина: невозможно преобразовать "std::vector" в "std::vector<_Ty,_Alloc>"
+C:\ash\AshC++\AshC++\film.h(36,20): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\ash\AshC++\AshC++\film.h(36,20): message : при попытке сопоставить список аргументов "()"
+C:\ash\AshC++\AshC++\film.h(36,1): error C3536: <begin>$L0: не может использоваться до инициализации
+C:\ash\AshC++\AshC++\film.h(36,1): error C3536: <end>$L0: не может использоваться до инициализации
+C:\ash\AshC++\AshC++\film.h(36,25): error C2100: недопустимое косвенное обращение
+C:\ash\AshC++\AshC++\film.h(36,25): error C2440: инициализация: невозможно преобразовать "int" в "Film"
+C:\ash\AshC++\AshC++\film.h(36,25): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
